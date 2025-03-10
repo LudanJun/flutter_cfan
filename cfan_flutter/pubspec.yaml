@@ -1,0 +1,62 @@
+name: cfan_flutter
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  extended_text: ^13.0.0
+  flutter:
+    sdk: flutter
+  dio: 5.4.0
+  # photo_manager: 3.0.0
+  provider: 6.1.2
+  shared_preferences: 2.2.3
+  cached_network_image: 3.3.1
+  connectivity_plus: 6.0.3
+  flutter_screenutil: 5.9.1
+  getwidget: 4.0.0
+  flutter_swiper_view: 1.1.8
+  flutterfire_cli: 1.0.1-dev.1
+  fluttertoast: 8.2.6 #tost
+  #授权登录三个文件包
+  firebase_core: 2.32.0
+  google_sign_in: 6.2.1 #google登录
+  firebase_auth: 4.20.0
+  sign_in_with_apple: 6.1.0 #苹果第三方登录插件
+  expandable_text: 2.3.0 #展开收起
+  flutter_staggered_grid_view: 0.7.0 #九宫格图排列 1~9
+  easy_image_viewer: 1.5.0 #图片浏览
+  video_player: 2.8.7 #视频播放插件
+  chewie: 1.8.1 #s视频播放插件基于video_player可以全屏 前进后退
+  json_annotation: 4.9.0 #数据解析
+  wechat_assets_picker: 9.1.0 #微信图片选择器
+  image_picker: 1.1.1 #图片视频选择 拍照录制
+  easy_refresh: 3.4.0 #刷新控件
+  extended_nested_scroll_view: 6.2.1 #
+  flutter_keyboard_visibility: 6.0.0 #键盘监听
+  extended_text_field: 15.0.0 #输入框扩展
+  extended_image: 8.2.1 #图片浏览器
+  path_provider: 2.1.3 #路径
+  uuid: 4.4.0 #uuid
+  camerawesome: 1.4.0 #摄像头拍照录视频
+  flutter_image_compress: 2.3.0 #图片压缩
+  video_compress: 3.1.2 #视频压缩
+  url_launcher: 6.3.0 # url打开外部应用
+  sticky_headers: ^0.3.0+2 # 列表悬浮头 https://pub.flutter-io.cn/packages/sticky_headers
+  # 国际化有问题先屏蔽
+  # flutter_localizations:
+  #   sdk: flutter
+  # intl: ^0.18.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
